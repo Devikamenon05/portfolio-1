@@ -1,0 +1,31 @@
+h1{
+    color: rgb(46, 44, 44)
+}
+
+*{
+    background-color: #3333;
+}
+
+p,h2{
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: rgb(216, 72, 15);
+}
+
+.games{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+   
+}
